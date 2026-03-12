@@ -25,7 +25,41 @@
             break;
             default: result="fail";
         }
+        let marks = 85;
+        if(marks>=60){
+            console.log("first division marks");
+        }
+        else if(marks<60&& marks>=40){
+            console.log("second division marks");
+        }
+        else if(marks<40&& marks>=33){
+            console.log("third division marks");
+        }
+        else{
+            console.log("fail");
+        }
         console.log(result);
+
+    {
+        let marks=[60,50,60,89 ];
+        let sum=0;
+        for (i=0;i<marks.length;i++){
+           sum=sum+=marks[i];
+        }
+        let average=sum/marks.length;
+        if(marks >=60){
+            console.log("first division marks");
+        }
+        else if(marks<60&& marks>=40){
+            console.log("second division marks");
+        }
+        else if(marks<40&& marks>=33){
+            console.log("third division marks");
+        }
+        else{
+            console.log("fail");
+        }
+    }
     </script>
 </body>
 </html>
